@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="900.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../imagenesLogins/fondoPincipal.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="437.0" layoutY="28.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="444.0" prefWidth="441.0" style="-fx-background-color: #e0dfda; -fx-background-radius: 60;">
+         <children>
+            <Button layoutX="148.0" layoutY="294.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="145.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 20;" text="ACCEDER">
+               <font>
+                  <Font name="Modern No. 20" size="22.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.6325758009245901" endY="0.7424242284261818" startX="0.6287878706599728" startY="0.18560604615644977">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.545098066329956" green="0.2705882489681244" blue="0.07450980693101883" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Label layoutX="47.0" layoutY="14.0" prefHeight="46.0" prefWidth="346.0" text="INICIAR SESION" textAlignment="CENTER">
+               <font>
+                  <Font name="Modern No. 20" size="43.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.6325758009245901" endY="0.7424242284261818" startX="0.636363657134952" startY="0.18560604615644977">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.545098066329956" green="0.2705882489681244" blue="0.07450980693101883" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <TextField focusTraversable="false" layoutX="47.0" layoutY="128.0" prefHeight="38.0" prefWidth="316.0" promptText="Ingrese su usuario" style="-fx-background-radius: 20;">
+               <font>
+                  <Font name="Modern No. 20" size="21.0" />
+               </font>
+            </TextField>
+            <PasswordField layoutX="47.0" layoutY="222.0" prefHeight="38.0" prefWidth="316.0" promptText="Ingrese su contraseña" style="-fx-background-radius: 20;">
+               <font>
+                  <Font name="Modern No. 20" size="21.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="47.0" layoutY="81.0" prefHeight="46.0" prefWidth="133.0" text="Usuario:" textAlignment="CENTER">
+               <font>
+                  <Font name="Modern No. 20" size="35.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.6325758009245901" endY="0.7424242284261818" startX="0.636363657134952" startY="0.18560604615644977">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.545098066329956" green="0.2705882489681244" blue="0.07450980693101883" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="47.0" layoutY="175.0" prefHeight="46.0" prefWidth="167.0" text="Contraseña:" textAlignment="CENTER">
+               <font>
+                  <Font name="Modern No. 20" size="35.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.6325758009245901" endY="0.7424242284261818" startX="0.636363657134952" startY="0.18560604615644977">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.545098066329956" green="0.2705882489681244" blue="0.07450980693101883" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </AnchorPane>
+      <AnchorPane layoutX="23.0" layoutY="28.0" opacity="0.68" prefHeight="444.0" prefWidth="413.0" style="-fx-background-color: #f6f3f3; -fx-background-radius: 60;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Label contentDisplay="TOP" layoutX="14.0" layoutY="80.0" prefHeight="303.0" prefWidth="294.0" text="Acontinuacion ingrese sus credenciales para inciar sesion en la aplicación." textOverrun="CLIP" wrapText="true">
+               <font>
+                  <Font name="Modern No. 20" size="43.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.4118942731277533" centerY="0.5265151804143732" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.545098066329956" green="0.2705882489681244" blue="0.07450980693101883" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="63.0" layoutY="14.0" prefHeight="46.0" prefWidth="288.0" text="BIENVENIDO" textAlignment="CENTER">
+               <font>
+                  <Font name="Modern No. 20" size="43.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.6325758009245901" endY="0.7424242284261818" startX="0.6287878706599728" startY="0.18560604615644977">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.545098066329956" green="0.2705882489681244" blue="0.07450980693101883" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
