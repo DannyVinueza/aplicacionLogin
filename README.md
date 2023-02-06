@@ -46,3 +46,4 @@ los modulos ocupados fueron
 - Register
 ![Music](/src/assets/image/Register-Print.png)
 ## Video
+<a href='https://www.twitch.tv/david2405s'><img alt="twitch" title= "Twitch" src="https://raw.githubusercontent.com/DAVIDS2405/DAVIDS2405/main/assets/Tiktok.png" height='45px'/></a>
