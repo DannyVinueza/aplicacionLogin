@@ -1,0 +1,32 @@
+.body {
+    -fx-background-image: url('../image/Background.png');
+    -fx-background-size: cover;
+}
+.pane{
+    -fx-background-color: linear-gradient(#340885, #272424be);
+}
+
+.button {
+    -fx-background-color: #d803d8;
+    -fx-background-radius: 12px;
+    -fx-border-radius: 12px;
+}
+.button:hover{
+-fx-background-color: #a137a1;
+}
+.button:pressed{
+    -fx-background-color: #ffffff;
+}
+.text-field {
+    -fx-background-color: #570d5a9d;
+    -fx-background-radius: 12px;
+    -fx-border-radius:12px;
+    -fx-prompt-text-fill: #ffffff;
+    -fx-text-fill:#ffffff;
+}
+.separator .line{
+    -fx-border-color: #fafafa;
+    -fx-border-width: 3;
+}
+
+
