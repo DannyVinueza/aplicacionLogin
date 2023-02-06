@@ -11,7 +11,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="931.0" styleClass="body" stylesheets="@../css/Dashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Window">
    <children>
       <VBox prefHeight="648.0" prefWidth="306.0" styleClass="vbox" stylesheets="@../css/Dashboard.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -97,7 +96,7 @@
             <StackPane fx:id="Area" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="641.0" prefWidth="627.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
          </children>
       </AnchorPane>
-      <Label layoutX="10.0" layoutY="550.0" text="Desing by David Basantes and Dany Vinueza" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
+      <Label layoutX="10.0" layoutY="550.0" text="Desing by David Basantes and Danny Vinueza" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>

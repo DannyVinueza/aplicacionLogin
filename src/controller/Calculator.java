@@ -69,10 +69,10 @@ public class Calculator {
             }
             else{
                 switch(Symbol){
-                    case "Plus" -> Operator ="+";
-                    case "Minus" -> Operator = "-";        
-                    case "Multiplication" -> Operator = "*";
-                    case "Division" -> Operator = "/";
+                    case "Plus":{Operator ="+";}break;
+                    case "Minus":{Operator = "-"; }break;       
+                    case "Multiplication":{Operator = "*";}break;
+                    case "Division":{Operator = "/";}break;
                 }
                 Num1 = Double.parseDouble(Result.getText());
                 // System.out.println(Num1);
