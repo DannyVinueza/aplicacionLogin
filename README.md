@@ -22,17 +22,17 @@ El proyecto cuenta con cuatro modulos en en el primero el home solo mostrara una
 
 ## Modules
 los modulos ocupados fueron
-- Button
-- Spiner
-- List Wiew
-- Check Box
-- Password Field
-- Text Field
-- Separator
-- Combo Box
-- Text Area
-- Progress Bar
-- Label
+- Button: Para poder realizar clicks
+- Spiner: Se ocupo en el registro para poner la edad
+- List Wiew: Se ocupo en el registro para poder ver los datos que se registran
+- Check Box: Se ocupo en el registro para saber si es hombre o mujer
+- Password: Field Se ocupo en el login para que la contraseña no se pueda ver
+- Text Field: Se ocupo para pedir campos a llenar
+- Separator: Se ocupo para dar un poco mas de forma al login
+- Combo Box: Se ocupo en el registro para ingresar o eliminar una registro
+- Text Area: Se ocupo para ver los registros
+- Progress Bar: Se ocupo en music para ver el estado de la cancion
+- Label Se ocupo para nombrar cosas y diseñar
 
 ## Pictures
 
@@ -48,4 +48,4 @@ los modulos ocupados fueron
 
 - Register
 ![Music](/src/assets/image/Register-Print.png)
-## Video
+
