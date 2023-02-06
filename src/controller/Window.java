@@ -12,10 +12,12 @@ import javafx.scene.layout.StackPane;
 
 
 
+
 public class Window {
 
     @FXML
     private StackPane Area;
+   
 
 
     @FXML
@@ -23,11 +25,15 @@ public class Window {
       Parent fxml = FXMLLoader.load(getClass().getResource("/assets/view/Calculator.fxml"));
       Area.getChildren().removeAll();
       Area.getChildren().setAll(fxml);
+      
     }
 
     @FXML
-    void Music(MouseEvent event) {
-
+    void Music(MouseEvent event) throws IOException {
+      Parent fxml = FXMLLoader.load(getClass().getResource("/assets/view/Music.fxml"));
+      Area.getChildren().removeAll();
+      Area.getChildren().setAll(fxml);
+      
     }
 
     @FXML

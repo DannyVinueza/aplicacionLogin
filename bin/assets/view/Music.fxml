@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="721.0" stylesheets="@../css/Music.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Music">
+   <children>
+      <Label alignment="CENTER" layoutX="297.0" layoutY="14.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Music Player" textFill="WHITE" AnchorPane.leftAnchor="297.0" AnchorPane.rightAnchor="281.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="background" cache="true" cacheHint="SPEED" layoutX="145.0" layoutY="58.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" nodeOrientation="LEFT_TO_RIGHT" prefHeight="244.0" prefWidth="432.0" styleClass="music_img" AnchorPane.bottomAnchor="160.0" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="144.0" AnchorPane.topAnchor="58.0">
+         <effect>
+            <DropShadow height="10.74" radius="5.234999999999999" width="12.2">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </AnchorPane>
+      <HBox alignment="CENTER" layoutX="240.0" layoutY="374.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="68.0" prefWidth="258.0" spacing="20.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="223.0">
+         <children>
+            <Button fx:id="back" mnemonicParsing="false" onMouseClicked="#Back_Song">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/Back_Music.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="play" layoutX="50.0" mnemonicParsing="false" onMouseClicked="#PlayPause">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/Play_Music.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="next" mnemonicParsing="false" onMouseClicked="#Next_Song">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/Next_Music.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <Label fx:id="title" alignment="CENTER" layoutX="145.0" layoutY="314.0" prefHeight="35.0" prefWidth="432.0" text="Music Title" textFill="WHITE" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="144.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Slider fx:id="Volume" layoutX="682.0" layoutY="110.0" onMousePressed="#Change_Volume" orientation="VERTICAL" prefHeight="217.0" prefWidth="14.0" value="70.0" AnchorPane.bottomAnchor="212.0" AnchorPane.rightAnchor="25.0" />
+      <ProgressBar fx:id="Progress_Bar" layoutX="78.0" layoutY="349.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="18.0" prefWidth="577.0" progress="0.0" stylesheets="@../css/Music.css" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="66.0" />
+   </children>
+</AnchorPane>
