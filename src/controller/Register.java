@@ -74,6 +74,9 @@ public class Register{
             //lvContactos.getItems().add(nombre + " - " + apellido + " - " + telefono + " - " + edad + " - " + sexo);
             lvContactos.setItems(FXCollections.observableArrayList(contactos));
             tfNombre.clear();
+            tfApellido.clear();
+            tfTelefono.clear();
+            sEdad.setValue(1);
             chHombre.setSelected(false);
             chMujer.setSelected(false);
         } else if (cbOpcion.getValue().equals("Eliminar")) {
