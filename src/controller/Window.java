@@ -38,8 +38,10 @@ public class Window {
     }
 
     @FXML
-    void Register(MouseEvent event) {
-
+    void Register(MouseEvent event) throws IOException {
+      Parent fxml = FXMLLoader.load(getClass().getResource("/assets/view/Register.fxml"));
+      Area.getChildren().removeAll();
+      Area.getChildren().setAll(fxml);
     }
     
 
