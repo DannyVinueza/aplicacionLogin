@@ -15,4 +15,5 @@
 .list-view{
     -fx-background-color: #5C51A0;
     -fx-background-radius: 12px;
+    -fx-text-fill: white;
 }
