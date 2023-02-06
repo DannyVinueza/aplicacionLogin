@@ -29,7 +29,7 @@ public class Register{
     @FXML
     private TextField tfTelefono;
     @FXML
-    private static CheckBox chHombre;
+    private CheckBox chHombre;
     @FXML
     private CheckBox chMujer;
     @FXML
@@ -80,7 +80,10 @@ public class Register{
             int index = lvContactos.getSelectionModel().getSelectedIndex();
             if (index >= 0) {
                 contactos.remove(index);
+                int selectedID = lvContactos.getSelectionModel().getSelectedIndex();
+                lvContactos.getItems().remove(selectedID);
             }
+            
         }
     }
 }
