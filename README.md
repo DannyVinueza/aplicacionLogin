@@ -31,3 +31,18 @@ los modulos ocupados fueron
 - Progress Bar
 - Label
 
+## Pictures
+
+- Dashboard
+ ![Calculator](/src/assets/image/Dashboard-Print.png)
+
+- Calculator
+
+ ![Calculator](/src/assets/image/Calculator-Print.png)
+
+- Music
+ ![Music](/src/assets/image/Music-Print.png)
+
+- Register
+![Music](/src/assets/image/Register-Print.png)
+## Video
