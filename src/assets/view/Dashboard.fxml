@@ -11,10 +11,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="931.0" styleClass="body" stylesheets="@../css/Dashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Window">
    <children>
-      <VBox prefHeight="648.0" prefWidth="306.0" styleClass="vbox" stylesheets="@../css/Dashboard.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <VBox prefHeight="648.0" prefWidth="306.0" spacing="10.0" styleClass="vbox" stylesheets="@../css/Dashboard.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Pane prefHeight="143.0" prefWidth="306.0">
                <children>
@@ -25,12 +24,12 @@
                   </Label>
                   <ImageView fitHeight="46.0" fitWidth="46.0" layoutX="25.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../image/dashboard.png" />
+                        <Image url="@../image/Dashboard.png" />
                      </image>
                   </ImageView>
                </children>
             </Pane>
-            <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onMouseClicked="#Calculator" prefHeight="46.0" prefWidth="303.0" text="Home" textFill="WHITE">
+            <Button fx:id="Home" alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onMouseClicked="#Home" prefHeight="46.0" prefWidth="303.0" text="Home" textFill="WHITE">
                <padding>
                   <Insets left="50.0" />
                </padding>
@@ -55,7 +54,7 @@
                <graphic>
                   <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../image/calculator.png" />
+                        <Image url="@../image/Calculator.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -85,7 +84,7 @@
                <graphic>
                   <ImageView fitHeight="25.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../image/user.png" />
+                        <Image url="@../image/User.png" />
                      </image>
                   </ImageView>
                </graphic>

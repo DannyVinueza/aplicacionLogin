@@ -18,7 +18,10 @@ public class Window {
     @FXML
     private StackPane Area;
    
+    @FXML
+    void Home(MouseEvent event) {
 
+    }
 
     @FXML
     void Calculator(MouseEvent event) throws IOException {

@@ -58,7 +58,7 @@ public class Music implements Initializable{
     public void initialize(URL location, ResourceBundle resources) {
         songs = new ArrayList<File>();
 
-        directory = new File("../Login/src/assets/music");
+        directory = new File("src/assets/music");
 
         files = directory.listFiles();
 

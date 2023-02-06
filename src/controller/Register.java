@@ -3,7 +3,7 @@
  */
 package controller;
 
-import java.util.Arrays;
+
 import java.util.List;
 
 import javafx.event.ActionEvent;
@@ -19,7 +19,7 @@ import javafx.scene.control.SpinnerValueFactory;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.control.ToggleGroup;
-import javafx.stage.Stage;
+
 
 public class Register{
     @FXML

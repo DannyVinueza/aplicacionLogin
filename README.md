@@ -1,6 +1,6 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Proyecto realizado con 4 modulos home,music,register y calculator
 
 ## Folder Structure
 
@@ -13,6 +13,5 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 > If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Explication
+El proyecto cuenta con cuatro modulos en en el primero el home solo mostrara una pequeña bienvenida para el usuario, en music tenemos un pequeño reproductor de musica se agrego el modulo de calculator con la calculadora de deberes pasados y por ultimo un registro de contactos
