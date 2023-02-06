@@ -76,7 +76,6 @@ public class Register{
             tfNombre.clear();
             tfApellido.clear();
             tfTelefono.clear();
-            sEdad.setValue(1);
             chHombre.setSelected(false);
             chMujer.setSelected(false);
         } else if (cbOpcion.getValue().equals("Eliminar")) {
