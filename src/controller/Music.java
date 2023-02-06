@@ -56,6 +56,7 @@ public class Music implements Initializable{
     
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        
         songs = new ArrayList<File>();
 
         directory = new File("src/assets/music");
@@ -67,13 +68,10 @@ public class Music implements Initializable{
                 songs.add(file);
             }
         }
-
+       
         title.setText(songs.get(songNumber).getName());
         media = new Media(songs.get(songNumber).toURI().toString());
         media_Player = new MediaPlayer(media);
-
-        
-
     }
     
 

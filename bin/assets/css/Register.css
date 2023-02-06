@@ -1,0 +1,18 @@
+.root{
+    -fx-background-image: url('../image/Background.png');
+    -fx-background-size: cover;
+}
+.button{
+    -fx-background-color: #5C51A0;
+    -fx-background-radius: 12px;
+    -fx-border-radius:12px;
+}
+
+.combo-box{
+    -fx-background-color: #5C51A0;
+    -fx-background-radius: 12px;
+}
+.list-view{
+    -fx-background-color: #5C51A0;
+    -fx-background-radius: 12px;
+}

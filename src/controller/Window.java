@@ -20,7 +20,9 @@ public class Window {
    
     @FXML
     void Home(MouseEvent event) {
-
+      Area.getChildren().removeAll();
+      Area.getChildren().setAll();
+      Music.media_Player.pause();
     }
 
     @FXML
@@ -38,6 +40,7 @@ public class Window {
       Area.getChildren().removeAll();
       Area.getChildren().setAll(fxml);
       
+      
     }
 
     @FXML
@@ -45,6 +48,7 @@ public class Window {
       Parent fxml = FXMLLoader.load(getClass().getResource("/assets/view/Register.fxml"));
       Area.getChildren().removeAll();
       Area.getChildren().setAll(fxml);
+      Music.media_Player.pause();
     }
     
 
