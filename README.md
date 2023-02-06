@@ -1,6 +1,7 @@
 ## Getting Started
 
 Proyecto realizado con 4 modulos home,music,register y calculator
+Create by David Basantes and Dany Vinueza
 
 ## Folder Structure
 
