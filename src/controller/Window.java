@@ -25,6 +25,7 @@ public class Window {
       Parent fxml = FXMLLoader.load(getClass().getResource("/assets/view/Calculator.fxml"));
       Area.getChildren().removeAll();
       Area.getChildren().setAll(fxml);
+      Music.media_Player.pause();
       
     }
 

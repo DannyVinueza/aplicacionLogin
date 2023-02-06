@@ -50,9 +50,8 @@ public class Music implements Initializable{
     private TimerTask task;
     private boolean running;
 
-    private MediaPlayer media_Player;
+    protected static MediaPlayer media_Player;
     private Media media;
-    private boolean atEndOfMedia = false;
     
     
     @Override
@@ -84,10 +83,7 @@ public class Music implements Initializable{
         begintimer();
         media_Player.setVolume(Volume.getValue() * 0.01);
         Status status = media_Player.getStatus();
-        if (status == Status.UNKNOWN || status == Status.HALTED) {
-            return;
-        }
-
+       
         if (status == Status.PAUSED || status == Status.READY || status == Status.STOPPED) {
             
             media_Player.play();

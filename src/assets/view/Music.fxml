@@ -12,7 +12,6 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="721.0" stylesheets="@../css/Music.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Music">
    <children>
       <Label alignment="CENTER" layoutX="297.0" layoutY="14.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Music Player" textFill="WHITE" AnchorPane.leftAnchor="297.0" AnchorPane.rightAnchor="281.0" AnchorPane.topAnchor="14.0">
@@ -65,7 +64,7 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Slider fx:id="Volume" layoutX="682.0" layoutY="110.0" onMousePressed="#Change_Volume" orientation="VERTICAL" prefHeight="217.0" prefWidth="14.0" value="70.0" AnchorPane.bottomAnchor="212.0" AnchorPane.rightAnchor="25.0" />
+      <Slider fx:id="Volume" layoutX="64.0" layoutY="78.0" onMousePressed="#Change_Volume" orientation="VERTICAL" prefHeight="217.0" prefWidth="14.0" value="70.0" AnchorPane.bottomAnchor="167.0" AnchorPane.topAnchor="78.0" />
       <ProgressBar fx:id="Progress_Bar" layoutX="78.0" layoutY="349.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="18.0" prefWidth="577.0" progress="0.0" stylesheets="@../css/Music.css" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="66.0" />
    </children>
 </AnchorPane>
